@@ -1,0 +1,7 @@
+export default class BlockChain implements BlockChainData {
+    private chain: BlockData[]
+
+    constructor(public difficulty: number = DIFFICULTY) {
+        this.chain = [this.generateGenesisBlock()]
+    }
+}

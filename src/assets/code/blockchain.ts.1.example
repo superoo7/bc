@@ -1,0 +1,11 @@
+export interface BlockChainData {
+  difficulty: number
+  getBlockChain(): BlockData[]
+  addBlock(data: any): BlockData
+  getLastBlock(): BlockData
+  generateGenesisBlock(): BlockData
+  mineBlock(l: BlockData, d: any): BlockData
+  hash(t: number, lh: string, data: any, nonce: number): string
+  isValidChain(chain: BlockData[]): boolean
+  replaceChain(chain: BlockData[]): void
+}

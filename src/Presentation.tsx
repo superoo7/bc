@@ -13,7 +13,9 @@ const theme = createTheme(
         tertiary: '#76CA70', // GREEN
         quarternary: '#A3C25D', // GREEN
         skyBlue: '#00D1D7',
-        blue: '#009ED3'
+        blue: '#009ED3',
+        blue2: '#191970',
+        blue3: '#3D59AB'
     },
     {
         primary: 'Helvetica',

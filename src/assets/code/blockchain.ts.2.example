@@ -1,0 +1,4 @@
+import { BlockChainData, BlockData } from '../data/class'
+import Block from './block'
+import { DIFFICULTY } from '../config'
+import { SHA256 } from 'crypto-js'

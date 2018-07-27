@@ -3,7 +3,7 @@ TITLE: Explanation on Block
 */
 
 import * as React from 'react'
-import { Slide, Heading, List, ListItem, Image } from 'spectacle'
+import { Slide, Heading, List, ListItem, Image, Appear } from 'spectacle'
 import { images } from '../images'
 
 export default (
@@ -13,8 +13,12 @@ export default (
         </Heading>
         <Image margin="10vh auto" src={images.block} />
         <List>
-            <ListItem>Store a block of data in a certain time</ListItem>
-            <ListItem>All blocks data are immutable</ListItem>
+            <Appear>
+                <ListItem>Store a block of data in a certain time</ListItem>
+            </Appear>
+            <Appear>
+                <ListItem>All blocks data are immutable</ListItem>
+            </Appear>
         </List>
     </Slide>
 )
