@@ -1,13 +1,28 @@
 /*
-TITLE: Block class Code #1
+TITLE: Explanation on Block
 */
 
 import * as React from 'react'
-import { Slide, Heading, CodePane } from 'spectacle'
+import { Slide, Heading, List, ListItem, Image, Appear, CodePane } from 'spectacle'
+import { images } from '../images'
 
 export default (
     // @ts-ignore
     <div hasSlideChildren>
+        <Slide transition={['fade']} bgColor="quarternary" textColor="white">
+            <Heading size={2} textColor="white" caps>
+                Block
+            </Heading>
+            <Image margin="10vh auto" src={images.block} />
+            <List>
+                <Appear>
+                    <ListItem>Store a block of data in a certain time</ListItem>
+                </Appear>
+                <Appear>
+                    <ListItem>All blocks data are immutable</ListItem>
+                </Appear>
+            </List>
+        </Slide>
         <Slide transition={['fade']} bgColor="quarternary" textColor="white">
             <Heading size={2} textColor="white" caps>
                 Block

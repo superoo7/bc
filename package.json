@@ -36,5 +36,18 @@
     "redbox-react": "^1.6.0",
     "spectacle-renderer": "^0.0.3",
     "typescript": "^2.9.2"
-  }
+  },
+  "description": "Slides created for explaining blockchain",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superoo7/bc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/superoo7/bc/issues"
+  },
+  "homepage": "https://superoo7.github.io/bc"
 }

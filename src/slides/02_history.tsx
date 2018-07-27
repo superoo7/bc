@@ -223,10 +223,10 @@ export default (
                     <ListItem>Support Smart Contract.</ListItem>
                 </Appear>
                 <Appear>
-                    <ListItem>A lot of usable plugins.</ListItem>
+                    <ListItem>Create decentralized app with ease.</ListItem>
                 </Appear>
                 <Appear>
-                    <ListItem>Create decentralized app with ease.</ListItem>
+                    <ListItem>A lot of usable plugins.</ListItem>
                 </Appear>
             </List>
         </Slide>
@@ -245,7 +245,14 @@ export default (
                 <Appear>
                     <ListItem>Blockchain sync issue.</ListItem>
                 </Appear>
+                <Appear>
+                    <ListItem>A lot of testing required.</ListItem>
+                </Appear>
             </List>
+        </Slide>
+        <Slide>
+            {/* tslint:disable-next-line:max-line-length */}
+            <img src="https://i2.wp.com/knoldus.blog/wp-content/uploads/2017/08/inked-14-638_li.jpg?resize=585%2C330&ssl=1" />
         </Slide>
     </div>
 )
