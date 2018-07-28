@@ -8,7 +8,9 @@ export const images = {
     steemhunt: require('./assets/steemhunt.png'),
     qurator: require('./assets/qurator.mov'),
     btc1: require('./assets/btc_1.png'),
-    btc2: require('./assets/btc_2.png')
+    btc2: require('./assets/btc_2.png'),
+    node: require('./assets/node.png'),
+    pos: require('./assets/powpos.png')
 }
 
 preloader(images)

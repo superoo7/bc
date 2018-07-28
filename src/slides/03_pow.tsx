@@ -9,7 +9,7 @@ import { images } from '../images'
 export default (
     // @ts-ignore
     <div hasSlideChildren>
-        <Slide transition={['fade']} bgColor="quarternary" textColor="white">
+        <Slide transition={['fade']} bgColor="secondary" textColor="white">
             <Heading size={2} textColor="white" caps>
                 Proof Of Work
             </Heading>
@@ -26,7 +26,7 @@ export default (
                 </Appear>
             </List>
         </Slide>
-        <Slide>
+        <Slide transition={['fade']} bgColor="secondary" textColor="white">
             <Heading size={2} textColor="white" caps>
                 Proof Of Work
             </Heading>

@@ -67,5 +67,15 @@ export default (
                 source={require('!raw-loader!../assets/code/blockchain.ts.6.example')}
             />
         </Slide>
+        <Slide transition={['fade']} bgColor="quarternary" textColor="white">
+            <Heading size={2} textColor="white" caps>
+                DEMO
+            </Heading>
+            <Heading size={5} textColor="white">
+                <a href="https://localhost:3001" target="_balnk">
+                    localhost:3001
+                </a>
+            </Heading>
+        </Slide>
     </div>
 )

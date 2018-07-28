@@ -37,6 +37,9 @@ export default (
                 Blockchain 101
             </Heading>
             <Image width="50vw" margin="10vh auto" src={images.blockchainn} />
+            <Heading size={6}>
+                <a href="https://superoo7.github.io/bc/">https://superoo7.github.io/bc/</a>
+            </Heading>
             <Heading size={6} textColor="blue2">
                 Presented by: Johnson Lai
             </Heading>
