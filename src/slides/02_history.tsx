@@ -15,7 +15,7 @@ const Wrapper = styled.div`
     padding: 10px;
 `
 
-const StyledHeading = styled(Heading)`
+const StyledHeading = styled(Heading) `
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 `
 
@@ -192,7 +192,8 @@ export default (
                 Ethereum
             </Heading>
             <Heading size={4}>July 2015</Heading>
-            <CoinImg src="https://pbs.twimg.com/profile_images/626149701189042177/LWpxKEv3_400x400.png" />
+            {/* tslint:disable-next-line:max-line-length */}
+            <CoinImg src="https://steemitimages.com/0x0/https://pbs.twimg.com/profile_images/626149701189042177/LWpxKEv3_400x400.png" />
         </Slide>
         <Slide transition={['zoom']} bgColor="skyBlue">
             <Heading size={1} caps lineHeight={1} textColor="white">
@@ -222,7 +223,8 @@ export default (
             <Heading size={1} fit caps lineHeight={1} textColor="white">
                 Problem Solve
             </Heading>
-            <CoinImg src="https://pbs.twimg.com/profile_images/626149701189042177/LWpxKEv3_400x400.png" />
+            {/* tslint:disable-next-line:max-line-length */}
+            <CoinImg src="https://steemitimages.com/0x0/https://pbs.twimg.com/profile_images/626149701189042177/LWpxKEv3_400x400.png" />
             <List textColor="blue3">
                 <Appear>
                     <ListItem>Support Smart Contract.</ListItem>
@@ -239,7 +241,8 @@ export default (
             <Heading size={1} fit caps lineHeight={1} textColor="white">
                 Drawbacks
             </Heading>
-            <CoinImg src="https://pbs.twimg.com/profile_images/626149701189042177/LWpxKEv3_400x400.png" />
+            {/* tslint:disable-next-line:max-line-length */}
+            <CoinImg src="https://steemitimages.com/0x0/https://pbs.twimg.com/profile_images/626149701189042177/LWpxKEv3_400x400.png" />
             <List textColor="blue3">
                 <Appear>
                     <ListItem>High cost of transaction fee.</ListItem>

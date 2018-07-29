@@ -56,7 +56,7 @@ export default (
                 textSize="1.2rem"
                 lang="typescript"
                 margin="10px auto"
-                source={require('!raw-loader!../assets/code/blockchain.ts.5.example')}
+                source={require('!raw-loader!../assets/code/blockchain.ts.6.example')}
             />
         </Slide>
         <Slide transition={['fade']} bgColor="quarternary" textColor="white">
@@ -64,7 +64,7 @@ export default (
                 textSize="1.2rem"
                 lang="typescript"
                 margin="10px auto"
-                source={require('!raw-loader!../assets/code/blockchain.ts.6.example')}
+                source={require('!raw-loader!../assets/code/blockchain.ts.5.example')}
             />
         </Slide>
         <Slide transition={['fade']} bgColor="quarternary" textColor="white">

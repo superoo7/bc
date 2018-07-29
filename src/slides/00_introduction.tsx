@@ -20,7 +20,7 @@ const Video = styled.video`
     width: 70vw;
 `
 
-const StyledFA = styled(FontAwesomeIcon)`
+const StyledFA = styled(FontAwesomeIcon) `
     padding: 10px;
     color: #3d59ab;
     &:hover {
@@ -71,7 +71,8 @@ export default (
         </Slide>
         <Slide>
             <Appear>
-                <CryptoImg src="https://pbs.twimg.com/profile_images/626149701189042177/LWpxKEv3_400x400.png" />
+                {/* tslint:disable-next-line:max-line-length */}
+                <CryptoImg src="https://steemitimages.com/0x0/https://pbs.twimg.com/profile_images/626149701189042177/LWpxKEv3_400x400.png" />
             </Appear>
             <Appear>
                 {/* tslint:disable-next-line:max-line-length */}
